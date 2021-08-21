@@ -1,0 +1,9 @@
+c:\users\arestrepo\documents\visual studio 2013\Projects\hero_gold\hero_gold\bin\Debug\hero_gold.exe.config
+c:\users\arestrepo\documents\visual studio 2013\Projects\hero_gold\hero_gold\bin\Debug\hero_gold.exe
+c:\users\arestrepo\documents\visual studio 2013\Projects\hero_gold\hero_gold\bin\Debug\hero_gold.pdb
+c:\users\arestrepo\documents\visual studio 2013\Projects\hero_gold\hero_gold\obj\Debug\hero_gold.csprojResolveAssemblyReference.cache
+c:\users\arestrepo\documents\visual studio 2013\Projects\hero_gold\hero_gold\obj\Debug\hero_gold.Form1.resources
+c:\users\arestrepo\documents\visual studio 2013\Projects\hero_gold\hero_gold\obj\Debug\hero_gold.Properties.Resources.resources
+c:\users\arestrepo\documents\visual studio 2013\Projects\hero_gold\hero_gold\obj\Debug\hero_gold.csproj.GenerateResource.Cache
+c:\users\arestrepo\documents\visual studio 2013\Projects\hero_gold\hero_gold\obj\Debug\hero_gold.exe
+c:\users\arestrepo\documents\visual studio 2013\Projects\hero_gold\hero_gold\obj\Debug\hero_gold.pdb
