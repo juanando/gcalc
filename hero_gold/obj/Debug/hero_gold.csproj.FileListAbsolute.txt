@@ -7,3 +7,12 @@ c:\users\arestrepo\documents\visual studio 2013\Projects\hero_gold\hero_gold\obj
 c:\users\arestrepo\documents\visual studio 2013\Projects\hero_gold\hero_gold\obj\Debug\hero_gold.csproj.GenerateResource.Cache
 c:\users\arestrepo\documents\visual studio 2013\Projects\hero_gold\hero_gold\obj\Debug\hero_gold.exe
 c:\users\arestrepo\documents\visual studio 2013\Projects\hero_gold\hero_gold\obj\Debug\hero_gold.pdb
+D:\c#\gcalc\hero_gold\bin\Debug\hero_gold.exe.config
+D:\c#\gcalc\hero_gold\obj\Debug\hero_gold.exe
+D:\c#\gcalc\hero_gold\obj\Debug\hero_gold.pdb
+D:\c#\gcalc\hero_gold\bin\Debug\hero_gold.exe
+D:\c#\gcalc\hero_gold\bin\Debug\hero_gold.pdb
+D:\c#\gcalc\hero_gold\obj\Debug\hero_gold.csprojResolveAssemblyReference.cache
+D:\c#\gcalc\hero_gold\obj\Debug\hero_gold.Form1.resources
+D:\c#\gcalc\hero_gold\obj\Debug\hero_gold.Properties.Resources.resources
+D:\c#\gcalc\hero_gold\obj\Debug\hero_gold.csproj.GenerateResource.Cache

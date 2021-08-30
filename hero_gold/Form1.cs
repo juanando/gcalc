@@ -12,7 +12,7 @@ namespace hero_gold
 {
   public partial class Form1 : Form
   {    
-    string ver="1.1";
+    string ver="1.2";
     string[] misname = new string[255];
     int[] misgold = new int[255];
    
@@ -317,6 +317,11 @@ namespace hero_gold
       status.Text = "searching to complete a multiple of 50 or 100...\n";
 
       calculate();
+    }
+
+    private void Form1_Load(object sender, EventArgs e)
+    {
+
     }
   }
 }

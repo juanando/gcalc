@@ -28,6 +28,7 @@
     /// </summary>
     private void InitializeComponent()
     {
+      System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
       this.textBox1 = new System.Windows.Forms.TextBox();
       this.button2 = new System.Windows.Forms.Button();
       this.status = new System.Windows.Forms.RichTextBox();
@@ -96,8 +97,10 @@
       this.Controls.Add(this.status);
       this.Controls.Add(this.button2);
       this.Controls.Add(this.textBox1);
+      this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
       this.Name = "Form1";
       this.Text = "Gold Calculator";
+      this.Load += new System.EventHandler(this.Form1_Load);
       this.ResumeLayout(false);
       this.PerformLayout();
 
