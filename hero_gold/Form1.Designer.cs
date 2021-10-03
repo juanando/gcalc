@@ -34,6 +34,10 @@
       this.status = new System.Windows.Forms.RichTextBox();
       this.label1 = new System.Windows.Forms.Label();
       this.buttongo = new System.Windows.Forms.Button();
+      this.label2 = new System.Windows.Forms.Label();
+      this.textBoxlev = new System.Windows.Forms.TextBox();
+      this.label3 = new System.Windows.Forms.Label();
+      this.checkBoxleg = new System.Windows.Forms.CheckBox();
       this.SuspendLayout();
       // 
       // textBox1
@@ -49,7 +53,7 @@
       // button2
       // 
       this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.button2.Location = new System.Drawing.Point(729, 23);
+      this.button2.Location = new System.Drawing.Point(969, 23);
       this.button2.Name = "button2";
       this.button2.Size = new System.Drawing.Size(75, 34);
       this.button2.TabIndex = 7;
@@ -62,7 +66,7 @@
       this.status.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
       this.status.Location = new System.Drawing.Point(12, 79);
       this.status.Name = "status";
-      this.status.Size = new System.Drawing.Size(792, 290);
+      this.status.Size = new System.Drawing.Size(1032, 290);
       this.status.TabIndex = 8;
       this.status.Text = "";
       // 
@@ -78,7 +82,7 @@
       // buttongo
       // 
       this.buttongo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.buttongo.Location = new System.Drawing.Point(257, 22);
+      this.buttongo.Location = new System.Drawing.Point(547, 18);
       this.buttongo.Name = "buttongo";
       this.buttongo.Size = new System.Drawing.Size(75, 35);
       this.buttongo.TabIndex = 10;
@@ -87,11 +91,52 @@
       this.buttongo.UseVisualStyleBackColor = true;
       this.buttongo.Click += new System.EventHandler(this.buttongo_Click);
       // 
+      // label2
+      // 
+      this.label2.AutoSize = true;
+      this.label2.Location = new System.Drawing.Point(255, 19);
+      this.label2.Name = "label2";
+      this.label2.Size = new System.Drawing.Size(27, 13);
+      this.label2.TabIndex = 12;
+      this.label2.Text = "Max";
+      // 
+      // textBoxlev
+      // 
+      this.textBoxlev.Font = new System.Drawing.Font("Consolas", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.textBoxlev.Location = new System.Drawing.Point(299, 13);
+      this.textBoxlev.Name = "textBoxlev";
+      this.textBoxlev.Size = new System.Drawing.Size(86, 45);
+      this.textBoxlev.TabIndex = 11;
+      this.textBoxlev.Text = "15";
+      // 
+      // label3
+      // 
+      this.label3.AutoSize = true;
+      this.label3.Location = new System.Drawing.Point(255, 41);
+      this.label3.Name = "label3";
+      this.label3.Size = new System.Drawing.Size(33, 13);
+      this.label3.TabIndex = 13;
+      this.label3.Text = "Level";
+      // 
+      // checkBoxleg
+      // 
+      this.checkBoxleg.AutoSize = true;
+      this.checkBoxleg.Location = new System.Drawing.Point(402, 16);
+      this.checkBoxleg.Name = "checkBoxleg";
+      this.checkBoxleg.Size = new System.Drawing.Size(129, 17);
+      this.checkBoxleg.TabIndex = 14;
+      this.checkBoxleg.Text = "no legendary missions";
+      this.checkBoxleg.UseVisualStyleBackColor = true;
+      // 
       // Form1
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-      this.ClientSize = new System.Drawing.Size(816, 379);
+      this.ClientSize = new System.Drawing.Size(1056, 379);
+      this.Controls.Add(this.checkBoxleg);
+      this.Controls.Add(this.label3);
+      this.Controls.Add(this.label2);
+      this.Controls.Add(this.textBoxlev);
       this.Controls.Add(this.buttongo);
       this.Controls.Add(this.label1);
       this.Controls.Add(this.status);
@@ -113,6 +158,10 @@
     private System.Windows.Forms.RichTextBox status;
     private System.Windows.Forms.Label label1;
     private System.Windows.Forms.Button buttongo;
+    private System.Windows.Forms.Label label2;
+    private System.Windows.Forms.TextBox textBoxlev;
+    private System.Windows.Forms.Label label3;
+    private System.Windows.Forms.CheckBox checkBoxleg;
   }
 }
 
